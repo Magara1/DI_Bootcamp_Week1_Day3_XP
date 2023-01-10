@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cv-content{
+    background-color: rgb(237, 232, 232);
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 1000px;
+}
+header{
+    padding-bottom: 15px;
+    border-bottom: 3px solid gray;
+    height: 200px;
+    width: 100%;
+}
+
+header div img{
+    width: 150px;
+    height: 180px;
+}
+
+header div{
+    display: flex;
+    margin-top: 20px;
+}
+
+.nom-profil{
+    float: left;
+    height: 150px;
+    text-align:center;
+    margin-top: 70px;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.nom-profil ul li{
+    list-style: none;
+}
+
+.nom{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.prenom{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+.bar{
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(255, 166, 0);
+    width: 15%;
+}
+
+.job-professional{
+    text-transform: uppercase;
+    color: rgb(220, 11, 11);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.photo{
+    position: relative;
+    float: right;
+    margin-right: 5%;
+}
+
+section{
+    border: 2px solid black;
+}
+
+section div{
+    display: flex;
+}
+
+.contact-education{
+   float: left;
+   display: grid;
+   border: 1px solid rgb(51, 0, 255);
+   width: 40%;
+}
+
+.profilcarrers-workexperience{
+    float: right;
+    display: grid;
+    text-align: left;
+    border: 1px solid red;
+    width: 58%;
+}
+
+section div article ul li{
+    list-style: none;
+}
+
+.titre{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.bar{
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(255, 166, 0);
+    width: 15%;
+}
